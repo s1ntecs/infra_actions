@@ -75,4 +75,5 @@ jobs:
             #остановка всех контейнеров
             sudo docker stop $(sudo docker ps -a -q)
             sudo docker run --rm -d -p 5000:5000 sintecs/infra_action
-            
+
+# ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDJn/pRQc437/6GpoyC1C157kAPxltXS79iK0vGLyDiBixUnG+I2OGnZL/7hV4isutw8Wlkgv9cDi4Eq9VlKB2uAybeQmi8ZrRkh1Szo5XrNoV4p3WrD1IM/Kd>
